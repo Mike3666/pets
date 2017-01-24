@@ -29,48 +29,52 @@ All models are wrong; some are useful.
 Throughout this paper there will be three major categories of definitions/expressions; Universal, Structural, and Experienced.
 %
 \subsubsection*{Universal}
-Universal expressions can be utilized in both structural and experienced contexts without changing the mathematical structure to define the specified concept. They help to properly qualify, refine, and scope discussion of objects within either construct. Depending on the context, changes are possible within the content of these sets and objects. The sets as defined are built upon what can be existentially quantified under the contextual conception of reality in which they are being evaluated.   
+Universal expressions can be utilized in structural and experienced contexts without changing the mathematical structure to define the specified concept. They help to properly qualify, refine, and scope discussion of objects within either construct. Depending on the context, changes are possible within the content of these sets and objects. The sets as defined are built upon what can be existentially quantified under the contextual conception of reality in which they are being evaluated.   
 %
 \subsubsection*{Structural}
-Structural expressions form the foundational, robustly designed, mathematical necessary for effectual, direct, and unambiguous discourse in matters related to economics. 
-%
-%Structural definitions assume knowledge of objective reality independent of bias, and uncertainity related to future values of all data within the world.   
+Structural expressions form the foundational, robustly designed, mathematic objects necessary for effectual, direct, and unambiguous discourse in matters related to economics. They assume knowledge of objective reality independent of bias, and/or estimation errors related to future values of all data within the world.    
 %
 \subsubsection*{Experienced}
-Experienced expressions are those functions which describe what a person feels in the moment and are the most measurable and useful for determining utility measurements. As we will discuss later in this paper, corpus of information are in actuality an immutable set of facts, however how we recall them is a mutable set of facts with associated interpretations within the moment of recall meaning we can re-categorize events at a later time from bad events to good events, or refine our viewpoint on the issue itself. Experienced definitions deals with the imperfections of imperfect information and gives us a way to reason about the struggles that this can present .
+
 
 \section*{Universal Expressions}
-The sets, $T$ and $I$, both start from zero and contain every whole number up to and including the maximal element which exists for its respective domain. The maximal element is either less than or equal to the maximal element of the natural numbers, $\mathbb{N}^{0}$. The ambiguity of the maximal element is intentional as the existence of elements in a finite or infinite manner is indeterminable. \eqref{eq:time} \eqref{eq:identity}
+\subsection*{Time}
+% A brief description/overview of global times, as well as an explanation of how global times exists under different contexts. This servers to state the existential qualifying factors under both structural and experienced expressions. 
+The set, $T$, represents the set of all global times for a specified context. A global time, $t$, exists whenever any object's property changes within the world as viewed through the lens of a specified context. For instance from a structural point of view, which represents the most complete and accurate view of the environment, $T$ contains a time element, $t$, whenever any object in the world that is being modeled/imagined changes, unless it is a simultaneous change which can be captured by a global time value shared amongst the objects that have simultaneously changed. By the same measure in an experienced context, which represents the world as it is seen through the object of interest's perspective, $T$ contains a time element, $t$, whenever the object of interest recognizes and/or observes a change in any of the objects being modeled/imagined. Furthermore, the object of interest in an experienced context may lump changes together into a single change if they learn about it at the same time and do not attempt to determine whether or not the changes truly happened simultaneously. The variation in measurement of time can become important to discussions of time-lag, learning curves, and much more. 
 \\
 \\
-% The time portion of how people react to time differently and when the time is actually incremented and decremented in relation to the world vs how individuals will increment and decrement time is a finer point that should be made here. These distinctions are going to be important to adequetly cover here else the rest of the paper may suffer from needing to be rewritten again and again. We should have a subset as part ofthe structural definition which comes from T that better describes the specifics and is context dependent on the individual or thing being discussed.
-%
-$T$ represents the set of all global times for a specified context. For instance a structural context represents most complete picture containing every time for every object in the world that is being modeled/imagined, where as experienced contexts are globally seen through the object which is experiencing the situation. starting at an initial reference point zero and progressing forward indeterminable. A specific time $t$ exists whenever a property of the specified world changes. It is key to understand that time is universal in the sense that any time change for any individual element of the world results in a time change for every element of that world. A person could therefore have several time changes recorded without anything personally changing for them. This will become important in discussions of time-lag especially in comparative analysis of experienced situations. \eqref{eq:tint}. 
+% A definition of global time from the math perspective draws from the exestital qualifiers state in the above paragraph.
+The set, $T$, starts from an initial reference point of zero and contain every whole number up to and including the size of the assumed set $A$. The size of $A$ is either less than or equal to the size of the natural numbers, $\mathbb{N}^{0}$. The size of $A$ is intentional ambiguous as the existence of elements in a finite or infinite manner is indeterminable and therefore may be seen uniquely under the perspective of different objects. \eqref{eq:global_time}
 \\
 \\ 
-% talk about how I is the set of all possible things but those things have different macro and micro designations. So things like function vs makeup of materials and talk about how those things can be manifested into one another and the functions that may exist to show larger I sets and why this is important to concepts like a person specified by i. those functions can both be in a structural context as well as a functional context and thus layers must be determined at the universal onset. For clarity sake this is an important area to split hairs and make some decisions. I should contain all the possible indexes including macro indexes so it may actually have to be \mathbb{I} instead so that it can contain a set as well. instead of that dumb idea just point out that the indicator is dependent on what it is indexing and thus contains all those elements anyway and can be broken down as such that may still require something for I but it will not require anything for T so look into that a little more but overall the indication should be a function vs contains type of thing. 
-$I$ represents the set of all possible indexes also starting at $0$ and can continue indefinitely as well. The symbol $i$ is used to represent an element from the total set of indexes, $I$ \eqref{eq:iini}. 
-%
+The set, $T$, can be scoped to a specific object $o_{i}$. The resulting set $T_{o_{i}}$ contains all the global time elements where the specified object changed in at least one property (other than global time). \eqref{eq:object_element_time}
+\\
+\\
+This can also be done over the set $O \in \mathbb{O}$.Where the resulting set $T_{O}$ contains all the global time elements where at least one elements of the specified object set experienced at least on property change (other than global time). For example the time scoped to the population $T_{\mathbb{P}}$ would contain a global time for every time from the total set of time $T$ where at least one person experienced a change in one of their properties. However if we attempt to take this one step further and scope over the set of sets $\mathbb{O}$ we see that this implies $T \Longleftrightarrow T_{\mathbb{O}}$. 
 \begin{equation} \label{eq:global_time} 
-T \defeq \{ t \in A \subseteq \mathbb{N}^{0} \mid \forall t \leq \max A\exists t^{*} \in A.t-t^{*}=1 \} 
+T \defeq \{ t \in A \subseteq \mathbb{N}^{0} \mid \forall t.1 \leq t \leq |A|\exists t^{*} \in A.t-t^{*}=1 \} 
 \end{equation}
-\begin{equation} \label {eq:global_identity}
-I \defeq \{ i \in A \subseteq \mathbb{N}^{0} \mid \forall i \leq \max A\exists i^{*} \in A.i-i^{*}=1 \}
-\end{equation}
-\begin{equation} \label{eq:object_time}
-T_{o} \defeq \{ t \in T \mid t_{o} \}
-\end{equation}
-\begin{equation} \label {eq:object_identity}
-I_{o} \defeq \{ i \in I \mid i_{o} \}
+\begin{equation} \label{eq:object_element_time}
+T_{o_{i}} \defeq \{ t \in T \mid o_{i, t} \ne o_{i, t-1} \}
 \end{equation}
 \begin{equation} \label{eq:subset_global_time}
 T_{o} \subseteq T
 \end{equation}
-\begin{equation} \label {eq:subset_global_identity}
-I_{o} \subset I
-\end{equation}
 \begin{equation} \label{eq:relative_object_time} 
 \mathcal{T}_{o} \defeq \{ \mathfrak{t}_{o} \in T \mid \forall \mathfrak{t}_{o}.1 \leq \mathfrak{t}_{o}  < |T_{o}| \exists \mathfrak{t}^{*}_{o} \in T.\mathfrak{t}_{o}-\mathfrak{t}^{*}_{o}=1 \} 
+\end{equation}
+\subsection*{Identity}
+% talk about how I is the set of all possible things but those things have different macro and micro designations. So things like function vs makeup of materials and talk about how those things can be manifested into one another and the functions that may exist to show larger I sets and why this is important to concepts like a person specified by i. those functions can both be in a structural context as well as a functional context and thus layers must be determined at the universal onset. For clarity sake this is an important area to split hairs and make some decisions. I should contain all the possible indexes including macro indexes so it may actually have to be \mathbb{I} instead so that it can contain a set as well. instead of that dumb idea just point out that the indicator is dependent on what it is indexing and thus contains all those elements anyway and can be broken down as such that may still require something for I but it will not require anything for T so look into that a little more but overall the indication should be a function vs contains type of thing. 
+$I$ represents the set of all possible indexes also starting at $0$ and can continue indefinitely as well. The symbol $i$ is used to represent an element from the total set of indexes, $I$ \eqref{eq:iini}. 
+%
+\begin{equation} \label {eq:global_identity}
+I \defeq \{ i \in A \subseteq \mathbb{N}^{0} \mid \forall i.1 \leq i \leq \max A\exists i^{*} \in A.i-i^{*}=1 \}
+\end{equation}
+\begin{equation} \label {eq:object_identity}
+I_{o} \defeq \{ i \in I \mid i_{o} \}
+\end{equation}
+\begin{equation} \label {eq:subset_global_identity}
+I_{o} \subset I
 \end{equation}
 \begin{equation} \label{eq:relative_object_identity}
 \mathcal{I}_{o} \defeq \{ \mathfrak{i}_{o} \in I \mid \forall \mathfrak{i}_{o}.1 \leq \mathfrak{i}_{o} < |I_{o}| \exists \mathfrak{i}^{*}_{o} \in I.\mathfrak{i}_{o}-\mathfrak{i}^{*}_{o}=1 \} 
